@@ -2,9 +2,9 @@
 set -x #echo on
 cd "$(dirname "$0")"
 
-OUTPUT_DIR=/home/$USER/plot/$EXPERIMENT
+OUTPUT_DIR=/home/$USER/plot/lab3
 SIM_PATH=/home/$USER/exp/simulations
-DESCRIPTOR_PATH=/home/$USER/$EXPERIMENT.json
+DESCRIPTOR_PATH=/home/$USER/lab3.json
 
 mkdir -p $OUTPUT_DIR
 
