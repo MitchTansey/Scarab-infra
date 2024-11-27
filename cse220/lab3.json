@@ -1,0 +1,28 @@
+{
+    "architecture": "sunny_cove",
+    "workloads_list": [
+        "503.bwaves_r",
+        "505.mcf_r",
+        "508.namd_r",
+        "511.povray_r",
+        "519.lbm_r",
+        "521.wrf_r",
+        "525.x264_r",
+        "527.cam4_r",
+        "531.deepsjeng_r",
+        "538.imagick_r",
+        "541.leela_r",
+        "544.nab_r",
+        "548.exchange2_r",
+        "549.fotonik3d_r",
+        "554.roms_r",
+        "557.xz_r"
+    ],
+    "experiment": "lab3",
+    "configurations": {
+        "notake": "--bp_mech notake",
+        "take": "--bp_mech take",
+        "twolevel": "--bp_mech twolevel",
+        "tage64k": "--bp_mech take64k"
+    }
+}
